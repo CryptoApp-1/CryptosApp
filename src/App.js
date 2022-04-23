@@ -8,6 +8,7 @@ import {Navbar,Exchanges, Homepage, Cryptocurrencies, CryptoDetails, News}  from
 import './App.css'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import { Redirect } from 'react-router-dom';
 
 function App() {  
 
@@ -23,7 +24,8 @@ function App() {
       <div className='main'>
         <Layout>
            <div className='routes'>
-              <Switch basename="/CryptosApp">
+
+              <Switch >
                  <Route exact path="/">
                     <Homepage />
                  </Route>
@@ -39,7 +41,9 @@ function App() {
                  <Route exact path="/news">
                     <News />
                  </Route>
+                 <Redirect from="/" to='/'/>
               </Switch>
+
            </div>
         </Layout>
       </div>
