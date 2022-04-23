@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
 
+
 import {Switch, Route, Link, Routes } from 'react-router-dom'
 import {Layout, typography, Space, Typography} from 'antd'
 import {Navbar,Exchanges, Homepage, Cryptocurrencies, CryptoDetails, News}  from './components';
@@ -22,7 +23,7 @@ function App() {
       <div className='main'>
         <Layout>
            <div className='routes'>
-              <Switch>
+              <Switch basename="/CryptosApp">
                  <Route exact path="/">
                     <Homepage />
                  </Route>
