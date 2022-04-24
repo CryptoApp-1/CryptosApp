@@ -9,7 +9,7 @@ import 'antd/dist/antd.css'
 
 
 ReactDOM.render(
-    <Router>
+    <Router basename='/CryptosApp'>
 
         <App />
 

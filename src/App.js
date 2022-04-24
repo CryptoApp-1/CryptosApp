@@ -10,6 +10,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Redirect } from 'react-router-dom';
 
+
 function App() {  
 
 
@@ -24,7 +25,7 @@ function App() {
       <div className='main'>
         <Layout>
            <div className='routes'>
-          {/* <BrowserRouter basename='/CryptosApp '> */}
+      
               <Switch >
                  <Route exact path="/">
                     <Homepage />
@@ -41,12 +42,10 @@ function App() {
                  <Route exact path="/news">
                     <News />
                  </Route>
-                 <Route path="*">
-                    <Homepage/>
-                 </Route>
+
                
               </Switch>
-              {/* </BrowserRouter> */}
+            
            </div>
         </Layout>
       </div>
