@@ -26,22 +26,25 @@ function App() {
            <div className='routes'>
           {/* <BrowserRouter basename='/CryptosApp '> */}
               <Switch >
-                 <Route exact path="/CryptosApp/">
+                 <Route exact path="/">
                     <Homepage />
                  </Route>
-                 <Route exact path="/CryptosApp/exchanges">
+                 <Route exact path="/exchanges">
                     {/* <Exchanges  /> */}
                  </Route>
-                 <Route exact path="/CryptosApp/cryptocurrencies">
+                 <Route exact path="/cryptocurrencies">
                     <Cryptocurrencies />
                  </Route>
-                 <Route exact path="/CryptosApp/crypto/:coinId">
+                 <Route exact path="/crypto/:coinId">
                     <CryptoDetails />
                  </Route>
-                 <Route exact path="/CryptosApp/news">
+                 <Route exact path="/news">
                     <News />
                  </Route>
-               <Redirect from='/' to='/CryptosApp/'/>
+                 <Route path="*">
+                    <Homepage/>
+                 </Route>
+               
               </Switch>
               {/* </BrowserRouter> */}
            </div>
