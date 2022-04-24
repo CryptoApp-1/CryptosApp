@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
-
+import { BrowserRouter } from "react-router-dom";
 
 import {Switch, Route, Link, Routes } from 'react-router-dom'
 import {Layout, typography, Space, Typography} from 'antd'
@@ -24,7 +24,7 @@ function App() {
       <div className='main'>
         <Layout>
            <div className='routes'>
-
+          <BrowserRouter basename='/CryptosApp '>
               <Switch >
                  <Route exact path="/">
                     <Homepage />
@@ -41,9 +41,9 @@ function App() {
                  <Route exact path="/news">
                     <News />
                  </Route>
-                 <Redirect from="/" to='/'/>
+               
               </Switch>
-
+              </BrowserRouter>
            </div>
         </Layout>
       </div>
