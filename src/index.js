@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router} from 'react-router-dom'
+// import {BrowserRouter as Router} from 'react-router-dom'
+import { HashRouter } from 'react-router-dom';
 
 
 import App from './App';
@@ -9,11 +10,11 @@ import 'antd/dist/antd.css'
 
 
 ReactDOM.render(
-    <Router basename='/CryptosApp'>
+    <HashRouter  basename='/CryptosApp'>
 
         <App />
 
-    </Router>
+    </HashRouter >
 ,
   document.getElementById('root')
 );
