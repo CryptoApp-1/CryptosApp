@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "077e76fc830456feefb6",
+    "revision": "4591d805f846d433ae5e",
     "url": "/CryptosApp/static/css/main.3e2cb6be.chunk.css"
   },
   {
-    "revision": "077e76fc830456feefb6",
-    "url": "/CryptosApp/static/js/main.077e76fc.chunk.js"
+    "revision": "4591d805f846d433ae5e",
+    "url": "/CryptosApp/static/js/main.4591d805.chunk.js"
   },
   {
     "revision": "4d4383362c713eff96e0",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/CryptosApp/static/media/cryptocurrency.88532732.png"
   },
   {
-    "revision": "986f38b0bc03c2d4ae9db087d73cbfae",
+    "revision": "0cd959f75fb54418735e4349eac1ac91",
     "url": "/CryptosApp/index.html"
   }
 ];
