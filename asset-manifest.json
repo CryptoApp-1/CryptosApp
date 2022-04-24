@@ -1,16 +1,16 @@
 {
   "main.css": "/CryptosApp/static/css/main.3e2cb6be.chunk.css",
-  "main.js": "/CryptosApp/static/js/main.97543bd8.chunk.js",
-  "main.js.map": "/CryptosApp/static/js/main.97543bd8.chunk.js.map",
+  "main.js": "/CryptosApp/static/js/main.a4140023.chunk.js",
+  "main.js.map": "/CryptosApp/static/js/main.a4140023.chunk.js.map",
   "static/css/1.3fbe42aa.chunk.css": "/CryptosApp/static/css/1.3fbe42aa.chunk.css",
-  "static/js/1.be7ad0db.chunk.js": "/CryptosApp/static/js/1.be7ad0db.chunk.js",
-  "static/js/1.be7ad0db.chunk.js.map": "/CryptosApp/static/js/1.be7ad0db.chunk.js.map",
+  "static/js/1.df2060db.chunk.js": "/CryptosApp/static/js/1.df2060db.chunk.js",
+  "static/js/1.df2060db.chunk.js.map": "/CryptosApp/static/js/1.df2060db.chunk.js.map",
   "runtime~main.js": "/CryptosApp/static/js/runtime~main.b3e1f6ad.js",
   "runtime~main.js.map": "/CryptosApp/static/js/runtime~main.b3e1f6ad.js.map",
   "static/media/cryptocurrency.png": "/CryptosApp/static/media/cryptocurrency.88532732.png",
   "static/css/main.3e2cb6be.chunk.css.map": "/CryptosApp/static/css/main.3e2cb6be.chunk.css.map",
   "static/css/1.3fbe42aa.chunk.css.map": "/CryptosApp/static/css/1.3fbe42aa.chunk.css.map",
   "index.html": "/CryptosApp/index.html",
-  "precache-manifest.ab28cd7939fafc7c9821bd811a9d4b35.js": "/CryptosApp/precache-manifest.ab28cd7939fafc7c9821bd811a9d4b35.js",
+  "precache-manifest.5c5e8462df5e5c19b5548c9dafe60c8f.js": "/CryptosApp/precache-manifest.5c5e8462df5e5c19b5548c9dafe60c8f.js",
   "service-worker.js": "/CryptosApp/service-worker.js"
 }
